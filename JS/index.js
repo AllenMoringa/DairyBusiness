@@ -45,6 +45,8 @@ const answerD = parseInt(inputD.value);
        incomeOverTime(answer5, 7);
        incomeOverTimeYear(answer5, 365);
        
+        document.getElementById('sum1').style.display='block';
+
        let January = answer5 * 45 * 31;
        document.getElementById('results8').innerHTML= `Your income for January is ${January}`
 
