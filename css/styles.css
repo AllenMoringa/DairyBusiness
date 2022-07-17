@@ -1,0 +1,30 @@
+.mainContainer{
+    display: flex;
+    width: 100%;
+}
+.sideA{
+    width: 30%;
+}
+.sideB {
+    width: 50%;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+}
+form div label{
+font: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+.button{
+    width: 75%;
+    margin-top: 10px;
+    height: 70px;
+    border: 1px;
+    border-radius: 4px 4px 4px 4px ;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
