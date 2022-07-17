@@ -1,12 +1,16 @@
 .mainContainer{
     display: flex;
     width: 100%;
+    justify-content: space-around;
 }
 .sideA{
     width: 30%;
 }
 .sideB {
     width: 50%;
+}
+#results1 {
+    margin-top: 70px;
 }
 form div{
     display: flex;
@@ -30,4 +34,17 @@ font-family: 'Times New Roman', Times, serif;
 }
 #sum1{
     display:none;
+}
+#sum2{
+    display: none;
+}
+#sum3{
+    display: none;
+}
+#sum4{
+    display: none;
+}
+
+.sideB{
+
 }
